@@ -1,3 +1,29 @@
-# WXT + React
+# Mellowtel sample with WXT React template
 
-This template should help get you started developing with React in WXT.
+This repository contains a sample extension implementing [Mellowtel](https://mellowtel.it) API, built using the the [WXT](https://wxt.dev) framework.
+
+## Getting Started
+In this repo, we're using the React template.
+
+To get started with this sample extension, follow these steps:
+
+1. Clone the repository.
+2. Replace the placeholder API key in `.env` file with your own Mellowtel API key (can be found in the [dashboard](https://www.mellowtel.it/mellowtel-dashboard)).
+3. Customize the extension's functionality according to your requirements.
+4. Test the extension in dev mode: `npm run dev`.
+5. Build / Zip the extension for production: `npm run build` / `npm run zip`
+
+## Documentation
+
+For detailed documentation on how to use the Mellowtel API and the WXT framework, refer to the following resources:
+
+- [Mellowtel API](https://docs.mellowtel.it/get-started/welcome)
+- [WXT Framework](https://wxt.dev)
+
+## Contributing
+
+Contributions to this sample extension are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## Contact
+
+If you have any questions or need further assistance, feel free to reach out at <yacine.web.ext@gmail.com>.

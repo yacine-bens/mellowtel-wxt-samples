@@ -6,4 +6,15 @@ export default defineConfig({
   vite: () => ({
     plugins: [react()],
   }),
+  manifest: {
+    name: "Mellowtel React Sample",
+    permissions: [
+      "storage",
+      "tabs",
+      "declarativeNetRequest",
+    ],
+    host_permissions: [
+      "\u003Call_urls\u003E",
+    ],
+  }
 });
