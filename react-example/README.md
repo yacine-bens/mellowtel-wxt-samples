@@ -13,6 +13,16 @@ To get started with this sample extension, follow these steps:
 4. Test the extension in dev mode: `npm run dev`.
 5. Build / Zip the extension for production: `npm run build` / `npm run zip`
 
+## Manual installation
+1. First [commit](https://github.com/yacine-bens/mellowtel-wxt-samples/commit/05f8f18f1cd2dad701b394e2d0ea00a4c1c072c2):
+   - `npx wxt@latest init project-name`
+   - choose `react`
+   - `cd project-name`
+   - `npm i`
+2. Second [commit](https://github.com/yacine-bens/mellowtel-wxt-samples/commit/83c5ceb1e9dd88cfdc71dad0ce75ad7156af44fd):
+   - `npm i mellowtel`
+   - follow changes in the commit
+
 ## Documentation
 
 For detailed documentation on how to use the Mellowtel API and the WXT framework, refer to the following resources:
