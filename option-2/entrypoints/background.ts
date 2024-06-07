@@ -25,6 +25,8 @@ export default defineBackground(() => {
       }
     }
 
+    // Dynamic content script gets cleared on update
+    // https://groups.google.com/a/chromium.org/g/chromium-extensions/c/ZM0Vzb_vuIs
     browser.scripting.unregisterContentScripts()
       .then(async () => {
         const permissions = await browser.permissions.getAll();
