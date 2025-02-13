@@ -6,11 +6,20 @@ export default defineConfig({
         name: "Mellowtel WXT Sample - Option 1",
         permissions: [
             "storage",
-            "tabs",
-            "declarativeNetRequest",
+            "declarativeNetRequestWithHostAccess",
         ],
         host_permissions: [
             "\u003Call_urls\u003E",
         ],
+        web_accessible_resources: [
+            {
+                resources: [
+                    "pascoli.html",
+                ],
+                matches: [
+                    "<all_urls>",
+                ]
+            }
+        ]
     }
 });

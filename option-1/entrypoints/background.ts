@@ -15,7 +15,7 @@ export default defineBackground(() => {
 
       const updateShownValue = await updateShown.getValue();
       if (!updateShownValue) {
-        await browser.tabs.create({ url: browser.runtime.getURL("/options.html") });
+        await browser.runtime.openOptionsPage();
         await updateShown.setValue(true);
       }
     }

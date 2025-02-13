@@ -2,7 +2,7 @@
 
 This repository contains a sample extension implementing [Mellowtel](https://mellowtel.it) API, built using the the [WXT](https://wxt.dev) framework.
 
-**Option 1** as mentioned in the [docs](https://docs.mellowtel.it/get-started/quickstart#option-1), is suitable for extensions built from scratch or extensions published on the Chrome Web Store with the permissions (`tabs`, `declarativeNetRequest`) and host_permission (`<all_urls>`) already requested in the published version.
+**Option 1** as mentioned in the [docs](https://docs.mellowtel.it/get-started/quickstart#option-1), is suitable for extensions built from scratch or extensions published on the Chrome Web Store with the permissions (`declarativeNetRequest`) and host_permission (`<all_urls>`) already requested in the published version.
 
 > [!NOTE]
 > For published extensions that doesn't have the mentioned permissions, checkout [option 2](https://github.com/yacine-bens/mellowtel-wxt-samples/tree/main/option-2).
